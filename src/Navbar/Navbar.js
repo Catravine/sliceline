@@ -21,7 +21,7 @@ export function Navbar() {
     return <NavbarStyled>
         <Logo>
             Sliceline
-            <span>🍕</span>
+            <span role="img" aria-label="pizza slice">🍕</span>
         </Logo>
     </NavbarStyled>;
 }
